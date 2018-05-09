@@ -115,16 +115,16 @@ lets set a to b.
 Wass passiert hier? Das ist ganz einfach. Am Anfang erstellen wir zwei Variablen, erst a mit 12 und dann b mit 13. Dann wird a auf 1 gesetzt. Dann wird a jedoch zu b gesetzt. Da b 13 ist, ist auch a dann 13.
 Mit `lets set x to y.` kann man also Variablen setzen.
 
-### Output
+## 4. Output
 
-### If-Abfragen
+## 5. If-Abfragen
 
-### While-Schleife
+## 6. While-Schleife
 
-### Gültigkeitsbereiche von Variablen
+## 7. Gültigkeitsbereiche von Variablen
 
-### Input
+## 8. Input
 
-### Funtkionen erstellen und aufrufen
+## 9. Funtkionen erstellen und aufrufen
 
-### Dateien einbinden
+## 10. Dateien einbinden

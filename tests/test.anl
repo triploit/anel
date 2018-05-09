@@ -1,0 +1,36 @@
+!f.anl
+
+here starts func. do
+    lets print "Hello from Func!" and newline.
+    lets run the_function.
+done.
+
+here starts main. do
+    create new a as integer is 10.
+    create new b as integer is 20.
+    create new c as integer is 0.
+
+    lets move a to b.
+    lets add a to c.
+    lets add 1 to a.
+
+    while a is greater than 10. do
+        lets run func.
+        lets sub 1 from a.
+    done.
+
+    if a is less than 10. do
+        lets print "A is less 10!" and newline.        
+    done.
+
+    lets print "a = ".
+    lets print a and newline and newline.
+    lets print "> ".
+    lets input b.
+    lets print b and newline.
+
+    lets set a to 357.
+    lets print a and newline.
+
+    return.
+done.

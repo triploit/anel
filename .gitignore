@@ -1,0 +1,7 @@
+cmake-*
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+anel
+a.out
+CMakeFiles/

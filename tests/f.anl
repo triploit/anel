@@ -1,0 +1,12 @@
+here starts the_function. do
+    create new x as integer is 14.
+    create new y as integer is 1.
+
+    while x is greater than 1. do
+        lets print y and newline.
+        lets mul x to y.
+        lets sub 1 from x.
+    done.
+
+    lets print y and newline.
+done.

@@ -5,3 +5,5 @@ Makefile
 anel
 a.out
 CMakeFiles/
+.idea/
+.vscode/

@@ -10,7 +10,7 @@ class FileReader
 private:
     std::string f;
 public:
-    FileReader(std::string file)
+    FileReader(const std::string &file)
     {
         f = file;
     }
@@ -34,9 +34,28 @@ public:
                     file += FileReader(line.substr(1, line.size())).readCompleteFile()+"\n";
                 }
                 else
-                    file += line + "\n";
-            }
+                {
+                    bool str = false;
 
+                    for (char c : line)
+                    {
+                        if (c == '"')
+                        {
+                            if (str) 
+                                str = false;
+                            else 
+                                str = true;
+                        }
+
+                        if (c == '#' && !str)
+                            break;
+
+                        file += c;
+                    }
+
+                    file += "\n";
+                }
+            }
         }
         else
         {

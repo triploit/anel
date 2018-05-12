@@ -16,7 +16,7 @@ public:
 
     Name() {}
 
-    Name (std::string value, std::string type)
+    Name (const std::string &value, const std::string &type)
     {
         this->value = value;
         this->type = type;

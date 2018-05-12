@@ -21,7 +21,7 @@ public:
         tokens.clear();
     }
 
-    void addInstruction(Token t)
+    void addInstruction(const Token &t)
     {
         tokens.push_back(t);
     }

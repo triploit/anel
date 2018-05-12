@@ -19,7 +19,7 @@ public:
 
     Compiler(){}
 
-    Compiler(std::string ifile, std::string ofile, bool _keep, bool _static, bool _verbose)
+    Compiler(const std::string &ifile, const std::string &ofile, const bool &_keep, const bool &_static, const bool &_verbose)
     {
         verbose = _verbose;
         keep_cpp_source = _keep;

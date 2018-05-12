@@ -12,7 +12,7 @@ private:
     std::vector<Token> tokens;
 
 public:
-    Parser(std::vector<Token> tokens)
+    Parser(const std::vector<Token> &tokens)
     {
         this->tokens = tokens;
     }

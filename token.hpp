@@ -8,7 +8,7 @@ public:
     std::string type;
     int line;
 
-    Token(std::string v, std::string t, int l)
+    Token(const std::string &v, const std::string &t, const int &l)
     {
         value = v;
         type = t;

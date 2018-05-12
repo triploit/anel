@@ -10,7 +10,7 @@ class Variables
     std::vector<Name> names;
 
 public:
-    bool existsName(std::string name)
+    bool existsName(const std::string &name)
     {
         for (Name n : names)
         {
@@ -21,7 +21,7 @@ public:
         return false;
     }
 
-    Name getName(std::string name)
+    Name getName(const std::string &name)
     {
         for (Name n : names)
         {
@@ -32,7 +32,7 @@ public:
         return Name("", "");
     }
 
-    void addName(Name name)
+    void addName(const Name &name)
     {
         names.push_back(name);
     }

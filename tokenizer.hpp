@@ -12,7 +12,7 @@ private:
     std::string code;
     std::vector<Token> tokens;
 
-    std::string keyword_or_word(std::string s)
+    std::string keyword_or_word(const std::string &s)
     {
         if (s == "lets" ||
             s == "create" ||
@@ -27,7 +27,7 @@ private:
         }
 
         std::smatch match;
-        std::regex re("[0-9]+");
+        std::regex re("(-|)[0-9]+(.[0-9]+|)");
 
         if (std::regex_match(s, match, re))
         {
@@ -38,7 +38,7 @@ private:
     }
 
 public:
-    Tokenizer(std::string c)
+    Tokenizer(const std::string &c)
     {
         code = c;
     }

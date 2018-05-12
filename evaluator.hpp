@@ -47,7 +47,7 @@ private:
     } functions;
 
 public:
-    Evaluator(std::vector<Instruction> instructions)
+    Evaluator(const std::vector<Instruction> &instructions)
     {
         ins = instructions;
     }

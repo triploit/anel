@@ -5,4 +5,4 @@ Anel, a new esoteric programming language
 Sorry - there's no documentation yet.
 
 ## DE
-Siehe [hier](https://github.com/triploit/anel/docs).
+Siehe [hier](https://github.com/triploit/anel/tree/master/docs).

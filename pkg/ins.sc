@@ -1,3 +1,7 @@
+name anel
+user triploit
+ver 0.0.0.1
+
 func install {
     cmake CMakeLists.txt
     make

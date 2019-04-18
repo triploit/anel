@@ -1,0 +1,14 @@
+name: "Anel"
+version: "0.0.1a"
+description: "Another esoteric programming language built by survari."
+information: ""
+
+type:
+    name: cmake
+
+products:
+    - ./anel: "/usr/bin/anel"
+
+gituser: triploit
+server: github.com
+reponame: anel

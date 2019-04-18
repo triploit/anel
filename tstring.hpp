@@ -70,7 +70,6 @@ namespace tri
         string() {str="";}
         string(const char &c):str(&c) {}
         //string(const tri::string c):str(c.cxs()) {}
-        string(const char &r):str(r) {}
 
         bool find(string s)
         {
